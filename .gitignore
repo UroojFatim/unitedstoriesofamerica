@@ -6,8 +6,6 @@ dist/
 build/
 
 # Local environment files
-.env
-.env.*
 !.env.example
 
 # Logs
@@ -26,7 +24,6 @@ coverage/
 .vite/
 
 # Editor / IDE
-.vscode/
 .idea/
 *.suo
 *.ntvs*
@@ -36,3 +33,4 @@ coverage/
 # OS files
 .DS_Store
 Thumbs.db
+config.bat
