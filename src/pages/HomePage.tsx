@@ -10,6 +10,7 @@ import GuestVoicesSection from '../sections/GuestVoicesSection';
 import NewsletterSection from '../sections/NewsletterSection';
 // import ShopSection from '../sections/ShopSection';
 import CommunitySection from '../sections/CommunitySection';
+import BecomeCreatorSection from '../sections/BecomeCreatorSection';
 import ClosingCTASection from '../sections/ClosingCTASection';
 import Footer from '../sections/Footer';
 
@@ -112,6 +113,10 @@ export default function HomePage() {
 
         <div style={{ zIndex: 70 }}>
           <CommunitySection />
+        </div>
+
+        <div style={{ zIndex: 75 }}>
+          <BecomeCreatorSection />
         </div>
 
         <div className="pinned-section" style={{ zIndex: 80 }}>
