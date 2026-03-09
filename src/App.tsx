@@ -3,6 +3,7 @@ import HomePage from './pages/HomePage';
 import EpisodesPage from './pages/EpisodesPage';
 import EpisodeDetailPage from './pages/EpisodeDetailPage';
 import ContactPage from './pages/ContactPage';
+import BecomeCreatorPage from './pages/BecomeCreatorPage';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/episodes" element={<EpisodesPage />} />
         <Route path="/episodes/:episodeId" element={<EpisodeDetailPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/become-a-creator" element={<BecomeCreatorPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>
