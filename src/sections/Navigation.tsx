@@ -34,6 +34,7 @@ export default function Navigation() {
   const navItems = [
     { label: 'Episodes', id: 'episodes' },
     { label: 'Stories', id: 'featured-story' },
+    { label: 'Creator', id: 'creator' },
     // { label: 'Shop', id: 'shop' },
     // { label: 'Newsletter', id: 'newsletter' },
   ];
